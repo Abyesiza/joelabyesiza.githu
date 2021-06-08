@@ -1,0 +1,23 @@
+#bigbox{ border: 5px solid black;}
+#container{background-color: azure; padding-left: 70px;}
+#Title{text-align: center; font-size: 50px; }
+#smallbox{text-align: end;}
+#small{text-align: justify; color: orange; font-size: 20px;}
+body{font-size :20px ;
+ background-image: url("file:///C:/Users/Joel/visual studio/BOB INTERIOR DESIGNS/image/Imagey.jpg");
+background-repeat:  no-repeat;
+background-attachment: fixed;}
+image{padding-left: 400px;}
+h1{text-align: center; font-size: 40px; color: bisque;}
+a{color :gainsboro; padding-left: 100px ;}
+#box{
+	display: flex;
+	flex-wrap: wrap;
+}
+p{padding-left: 50px; font-family: italic;}
+img{margin: 20px;}
+@media screen and (max-width: 1280px){
+	.thumbnails.box{
+		width: 45%;
+	}
+}
